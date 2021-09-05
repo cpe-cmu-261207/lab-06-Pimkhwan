@@ -12,7 +12,7 @@ function App() {
       <Navbar />
 
       <Switch>
-        {/* template for /current */}
+       
         <Route exact path='/'>
           <Current />
         </Route>
@@ -20,19 +20,18 @@ function App() {
           <Current />
         </Route>
 
-        {/* template for /history/select */}
         <Route path='/history/select'>
           <Select />
         </Route>
 
 
-        {/* template for /history/result */}
+       
         <Route path='/history/result'>
           <Result />
         </Route>
 
 
-        {/* template for about me */}
+  
         <Route path='/about'>
           <About />
         </Route>
